@@ -1,7 +1,7 @@
 {
   "name": "scrollbar",
   "version": "1.0.0",
-  "private": true,
+  "author": "Justin Karsopawiro",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
