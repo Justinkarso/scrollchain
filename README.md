@@ -1,3 +1,9 @@
+<h1 align="center">
+  <br>
+  <a href="https://scrollchain.vercel.app"><img src="public/logo.png" alt="scrollchain" width="150"></a>
+  <br>
+</h1>
+
 <p align="center">
   <img alt="GitHub language" src="https://img.shields.io/github/languages/top/Justinkarso/scrollbar">
  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Justinkarso/scrollbar">

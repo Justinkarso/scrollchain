@@ -1,6 +1,6 @@
+import { useState } from "react";
 import Aside from "@/components/Aside";
 import Main from "@/components/Main";
-import { useState } from "react";
 
 const INIT_STATE = {
   backgroundColor: "#1E1E1E",

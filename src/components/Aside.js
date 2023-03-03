@@ -1,7 +1,7 @@
+import styled from "styled-components";
 import ColorPicker from "./aside/ColorPicker";
 import Navigation from "./aside/Navigation";
 import RangeSlider from "./aside/RangeSlider";
-import styled from "styled-components";
 
 const Aside = ({ updateState, state }) => {
   const obj = `&::-webkit-scrollbar {
@@ -71,12 +71,14 @@ const Aside = ({ updateState, state }) => {
             title="Scrollbar Border Radius"
             updateState={updateState}
             state={state}
+            max={25}
           />
           <RangeSlider
             keyState="thumbBorderRadius"
             title="Thumb Border Radius"
             updateState={updateState}
             state={state}
+            max={25}
           />
           <RangeSlider
             keyState="thumbBorderWidth"
@@ -97,7 +99,7 @@ const Aside = ({ updateState, state }) => {
       </button>
       <StyledAside className="p-4 bg-zinc-800 rounded-r-[4px] rounded-b-[4px] overflow-x-scroll">
         <pre>
-          <code>{obj}</code>
+          <code className="opacity-70">{obj}</code>
         </pre>
       </StyledAside>
     </StyledAside>

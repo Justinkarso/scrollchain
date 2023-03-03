@@ -2,10 +2,10 @@ import { useState, useEffect, useRef } from "react";
 import { ChromePicker } from "react-color";
 
 const ColorPicker = ({ stateKey, title, updateState, state }) => {
-  const [colorStae, setColorState] = useState(state[stateKey]);
+  const [colorState, setColorState] = useState(state[stateKey]);
   const [showPicker, setShowPicker] = useState(false);
   const ref = useRef();
-  // outside click
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (ref.current) {
@@ -31,7 +31,7 @@ const ColorPicker = ({ stateKey, title, updateState, state }) => {
         <div
           className="chrome-picker w-5 h-5 bg-zinc-700 rounded-[4px] cursor-pointer"
           style={{
-            backgroundColor: `${colorStae}`,
+            backgroundColor: `${colorState}`,
           }}
           onClick={handlePicker}
         />
@@ -39,7 +39,7 @@ const ColorPicker = ({ stateKey, title, updateState, state }) => {
           <div className="flex">
             <ChromePicker
               className="absolute z-20 top-7 right-0 chrome-picker"
-              color={colorStae}
+              color={colorState}
               onChange={(color) => {
                 setColorState(color.hex);
                 updateState(stateKey, color.hex);

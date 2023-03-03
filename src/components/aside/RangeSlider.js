@@ -1,7 +1,7 @@
-import React from "react";
+import { useState } from "react";
 
 const RangeSlider = ({ keyState, title, updateState, state, max }) => {
-  const [value, setValue] = React.useState(state[keyState]);
+  const [value, setValue] = useState(state[keyState]);
 
   return (
     <div className="flex items-center justify-between mt-2">
