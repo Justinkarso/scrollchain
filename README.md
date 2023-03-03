@@ -8,11 +8,12 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/justinkarso/scrollchain">
   <img src="https://therealsujitk-vercel-badge.vercel.app/?app=scrollchain" />
 </p>
-<br>
+
+[Live Website](https://scrollchain.vercel.app) | [Github](https://github.com/justinkarso/scrollchain) | [Buy me a coffee](https://www.buymeacoffee.com/justinkarso)
 
 ## About
 
-Simple web app to create your custom scrollbar styles.
+[ScrollChain](https://scrollchain.vercel.app) is a simple web app to create your custom scrollbar styles.
 
 ## Project Setup
 
