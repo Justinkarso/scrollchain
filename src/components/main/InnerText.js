@@ -17,10 +17,6 @@ const InnerText = () => (
       scrollbar where both horizontal and vertical scrollbars meet.
     </p>
     <h3>Available Pseudo-Elements for CSS Scrollbar Selectors</h3>
-    <p>
-      Here's a list of the available pseudo-elements for CSS Scrollbar
-      Selectors:
-    </p>
     <ul>
       <li>::-webkit-scrollbar – modifies the entire scrollbar.</li>
       <li>
@@ -30,25 +26,12 @@ const InnerText = () => (
         ::-webkit-scrollbar-track – modifies the track (progress bar) of the
         scrollbar.
       </li>
-      <li>
-        ::-webkit-scrollbar-corner – modifies the bottom corner of the scrollbar
-        where both horizontal and vertical scrollbars meet. This is typically
-        the bottom-right corner of the browser window.
-      </li>
     </ul>
     <p>
       Keep in mind that you can add these pseudo-elements to any element that
       has content that is longer than the space reserved for the element.
       However, the element's overflow property must be set to scroll, otherwise,
       the scrollbar won't be displayed.
-    </p>
-    <h3>Supported Browsers for CSS Scrollbar Selectors</h3>
-    <p>
-      It's important to note that the CSS scrollbar selectors mentioned above
-      only work in Blink and WebKit based browsers such as Google Chrome and
-      Safari. For other browsers, the W3C provides scrollbar selectors such as
-      scrollbar-width, scrollbar-color, scrollbar-track-color,
-      scrollbar-thumb-color, and scrollbar-face-color.
     </p>
     <h3>Supported browsers include:</h3>
     <ul>
