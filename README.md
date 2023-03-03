@@ -5,9 +5,9 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub language" src="https://img.shields.io/github/languages/top/Justinkarso/scrollbar">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Justinkarso/scrollbar">
-  <img alt="GitHub" src="https://img.shields.io/github/license/justinkarso/scrollbar">
+  <img alt="GitHub language" src="https://img.shields.io/github/languages/top/Justinkarso/scrollchain">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Justinkarso/scrollchain">
+  <img alt="GitHub" src="https://img.shields.io/github/license/justinkarso/scrollchain">
   <img src="https://therealsujitk-vercel-badge.vercel.app/?app=scrollchain" />
 </p>
 
