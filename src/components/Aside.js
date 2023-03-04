@@ -4,16 +4,16 @@ import Navigation from "./aside/Navigation";
 import RangeSlider from "./aside/RangeSlider";
 
 const Aside = ({ updateState, state }) => {
-  const obj = `&::-webkit-scrollbar {
+  const obj = `body::-webkit-scrollbar {
   width: ${state.scrollWidth}px;
 }
 
-&::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: ${state.trackColor};
   border-radius: ${state.scrollBorderRadius}px;
 }
 
-&::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: ${state.thumbColor};
   border: ${state.thumbBorderWidth}px solid ${state.borderColor};
   border-radius: ${state.thumbBorderRadius}px;
