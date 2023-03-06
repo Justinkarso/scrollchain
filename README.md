@@ -9,7 +9,7 @@
   <img src="https://therealsujitk-vercel-badge.vercel.app/?app=scrollchain" />
 </p>
 
-[Live Website](https://scrollchain.vercel.app) | [Github](https://github.com/justinkarso/scrollchain) | [Buy me a coffee](https://www.buymeacoffee.com/justinkarso)
+[Live Website](https://scrollchain.vercel.app) | [Github](https://github.com/justinkarso/scrollchain)
 
 ## About
 
